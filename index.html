@@ -4,12 +4,42 @@
 	<meta charset="UTF-8">
 	<title>JavaScript Chalange Part 3</title>
 	<style>
-		
+.controls {
+	float: left;
+	width: 20%;
+}
+.image {
+	width: 80%;
+	float: left;
+	text-align: center;
+}
+.image img {
+	width: 30%;
+}
+
+
 	</style>
 </head>
 <body>
-	
+	<h2>Update css variables with JavaScript</h2>
 
+	<div class="controls">
+		<div class="padding">
+			<label for="">Padding</label>
+			<input type="range" name="range" id="range">
+		</div>
+		<div class="blur">
+			<label for="">Blur</label>
+			<input type="range" name="blur" id="blur">
+		</div>
+		<div class="bg_color">
+			<label for="">Blur</label>
+			<input type="color" name="bg_color" id="bg_color">
+		</div>
+	</div>
+	<div class="image">
+		<img src="mmm.png" alt="">
+	</div>
 
 	<script>
 		
